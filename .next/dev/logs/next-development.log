@@ -1,0 +1,731 @@
+[00:00:56.080] Server  LOG      ✓ Ready in 43.8s
+[00:01:00.262] Server  LOG      ○ Compiling / ...
+[00:01:42.674] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="font-sans antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                            ...
+                              <motion.div className="absolute h..." initial={{x:"39.2712...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(39.2712485955043vw) translateY(53.02404572368884vh)"
+-                                   transform: "translateX(30.0334vw) translateY(77.584vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"69.4598...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(69.45981761241032vw) translateY(98.70578272748146vh)"
+-                                   transform: "translateX(75.8154vw) translateY(75.0203vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"93.5071...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(93.50719938867414vw) translateY(90.64535079015825vh)"
+-                                   transform: "translateX(2.19949vw) translateY(5.8271vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"13.6579...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(13.65799524375907vw) translateY(8.123948919908475vh)"
+-                                   transform: "translateX(80.9481vw) translateY(94.3388vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"30.3215...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(30.321547585540387vw) translateY(87.91828763228278vh)"
+-                                   transform: "translateX(20.1149vw) translateY(65.5426vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"42.7747...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(42.77474507017555vw) translateY(37.89905500847852vh)"
+-                                   transform: "translateX(93.4819vw) translateY(52.9963vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"62.1128...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(62.11286904934824vw) translateY(46.37144337200113vh)"
+-                                   transform: "translateX(51.6984vw) translateY(44.7776vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"36.7579...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(36.7579367636378vw) translateY(16.384579746683926vh)"
+-                                   transform: "translateX(64.2305vw) translateY(42.0303vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"65.6653...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(65.66535633802634vw) translateY(3.539891140871021vh)"
+-                                   transform: "translateX(34.899vw) translateY(97.6579vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"62.6451...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(62.645175909914755vw) translateY(75.37195580272763vh)"
+-                                   transform: "translateX(83.3302vw) translateY(37.5795vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"39.8589...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(39.85899699640842vw) translateY(40.39974871738743vh)"
+-                                   transform: "translateX(68.5195vw) translateY(19.7128vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"68.9508...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(68.95082121555487vw) translateY(78.30060471629808vh)"
+-                                   transform: "translateX(57.1611vw) translateY(61.6586vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"74.2014...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(74.20142713230447vw) translateY(64.2751335515153vh)"
+-                                   transform: "translateX(87.5884vw) translateY(66.2028vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"64.1333...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(64.13334931150406vw) translateY(34.54353415423908vh)"
+-                                   transform: "translateX(20.8991vw) translateY(83.0131vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"85.7127...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(85.7127275631304vw) translateY(16.24290638925934vh)"
+-                                   transform: "translateX(0.446228vw) translateY(16.6686vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"70.5367...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(70.536724038741vw) translateY(91.25187217123374vh)"
+-                                   transform: "translateX(88.0031vw) translateY(93.3218vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"45.6969...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(45.696996594445615vw) translateY(18.901984668936123vh)"
+-                                   transform: "translateX(11.4898vw) translateY(11.789vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"50.0420...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(50.04206697387733vw) translateY(0.980620162813628vh)"
+-                                   transform: "translateX(75.4452vw) translateY(90.0785vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"95.0528...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(95.05287220382472vw) translateY(36.52142330051148vh)"
+-                                   transform: "translateX(66.1422vw) translateY(20.9231vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"39.6814...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(39.68148385700005vw) translateY(89.52266798058949vh)"
+-                                   transform: "translateX(48.5721vw) translateY(54.3202vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                            ...
+                  ...
+
+[00:01:42.980] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:42.981] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:42.981] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#experience color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765786561190}
+[00:01:46.487] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+      <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/#experience" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+              <SegmentViewNode type="page" pagePath="page.tsx">
+                <SegmentTrieNode>
+                <HomePage>
+                  <div className="flex min-h...">
+                    <HeroSection>
+                      <section className="relative f...">
+                        <div className="absolute i...">
+                          <div>
+                          <div>
+                          <div>
+                          <motion.div className="absolute h..." initial={{x:"65.1867...", ...}} animate={{y:[...], ...}} ...>
+                            <div
+                              className="absolute h-1 w-1 rounded-full bg-white/20"
+                              style={{
++                               transform: "translateX(65.18670685451545vw) translateY(46.36530186296412vh)"
+-                               transform: "translateX(5.50288vw) translateY(8.11077vh)"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div className="absolute h..." initial={{x:"42.2709...", ...}} animate={{y:[...], ...}} ...>
+                            <div
+                              className="absolute h-1 w-1 rounded-full bg-white/20"
+                              style={{
++                               transform: "translateX(42.270912349530946vw) translateY(35.6073836532264vh)"
+-                               transform: "translateX(4.25561vw) translateY(76.4929vh)"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div className="absolute h..." initial={{x:"83.0400...", ...}} animate={{y:[...], ...}} ...>
+                            <div
+                              className="absolute h-1 w-1 rounded-full bg-white/20"
+                              style={{
++                               transform: "translateX(83.0400215477857vw) translateY(39.88130489269418vh)"
+-                               transform: "translateX(45.5136vw) translateY(39.7597vh)"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div className="absolute h..." initial={{x:"90.5102...", ...}} animate={{y:[...], ...}} ...>
+                            <div
+                              className="absolute h-1 w-1 rounded-full bg-white/20"
+                              style={{
++                               transform: "translateX(90.51022971957624vw) translateY(26.036959373548385vh)"
+-                               transform: "translateX(26.329vw) translateY(60.3027vh)"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div className="absolute h..." initial={{x:"33.0463...", ...}} animate={{y:[...], ...}} ...>
+                            <div
+                              className="absolute h-1 w-1 rounded-full bg-white/20"
+                              style={{
++                               transform: "translateX(33.046338515079356vw) translateY(18.302633036910564vh)"
+-                               transform: "translateX(89.1223vw) translateY(59.7193vh)"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div className="absolute h..." initial={{x:"40.8417...", ...}} animate={{y:[...], ...}} ...>
+                            <div
+                              className="absolute h-1 w-1 rounded-full bg-white/20"
+                              style={{
++                               transform: "translateX(40.84173915153541vw) translateY(88.0552078847097vh)"
+-                               transform: "translateX(13.2594vw) translateY(32.321vh)"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div className="absolute h..." initial={{x:"73.2734...", ...}} animate={{y:[...], ...}} ...>
+                            <div
+                              className="absolute h-1 w-1 rounded-full bg-white/20"
+                              style={{
++                               transform: "translateX(73.27341820666891vw) translateY(94.21022740472293vh)"
+-                               transform: "translateX(33.7518vw) translateY(43.6219vh)"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div className="absolute h..." initial={{x:"82.4181...", ...}} animate={{y:[...], ...}} ...>
+                            <div
+                              className="absolute h-1 w-1 rounded-full bg-white/20"
+                              style={{
++                               transform: "translateX(82.41814442050956vw) translateY(90.48594227154021vh)"
+-                               transform: "translateX(3.01623vw) translateY(7.91123vh)"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div className="absolute h..." initial={{x:"95.1368...", ...}} animate={{y:[...], ...}} ...>
+                            <div
+                              className="absolute h-1 w-1 rounded-full bg-white/20"
+                              style={{
++                               transform: "translateX(95.1368299742281vw) translateY(85.62684689169978vh)"
+-                               transform: "translateX(42.3115vw) translateY(8.06287vh)"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div className="absolute h..." initial={{x:"51.1029...", ...}} animate={{y:[...], ...}} ...>
+                            <div
+                              className="absolute h-1 w-1 rounded-full bg-white/20"
+                              style={{
++                               transform: "translateX(51.10290563053527vw) translateY(86.42462111401355vh)"
+-                               transform: "translateX(38.4787vw) translateY(78.9139vh)"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div className="absolute h..." initial={{x:"20.2381...", ...}} animate={{y:[...], ...}} ...>
+                            <div
+                              className="absolute h-1 w-1 rounded-full bg-white/20"
+                              style={{
++                               transform: "translateX(20.238149636035306vw) translateY(49.70989740368659vh)"
+-                               transform: "translateX(96.1742vw) translateY(9.60741vh)"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div className="absolute h..." initial={{x:"96.1493...", ...}} animate={{y:[...], ...}} ...>
+                            <div
+                              className="absolute h-1 w-1 rounded-full bg-white/20"
+                              style={{
++                               transform: "translateX(96.1493532311203vw) translateY(54.26721317740002vh)"
+-                               transform: "translateX(64.0195vw) translateY(72.551vh)"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div className="absolute h..." initial={{x:"74.5634...", ...}} animate={{y:[...], ...}} ...>
+                            <div
+                              className="absolute h-1 w-1 rounded-full bg-white/20"
+                              style={{
++                               transform: "translateX(74.5634561588881vw) translateY(58.06378753464999vh)"
+-                               transform: "translateX(99.605vw) translateY(63.045vh)"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div className="absolute h..." initial={{x:"26.5806...", ...}} animate={{y:[...], ...}} ...>
+                            <div
+                              className="absolute h-1 w-1 rounded-full bg-white/20"
+                              style={{
++                               transform: "translateX(26.580691298700042vw) translateY(44.15645956755202vh)"
+-                               transform: "translateX(47.9788vw) translateY(72.2866vh)"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div className="absolute h..." initial={{x:"25.1989...", ...}} animate={{y:[...], ...}} ...>
+                            <div
+                              className="absolute h-1 w-1 rounded-full bg-white/20"
+                              style={{
++                               transform: "translateX(25.19892657506747vw) translateY(94.3865030075133vh)"
+-                               transform: "translateX(77.5863vw) translateY(49.457vh)"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div className="absolute h..." initial={{x:"58.8411...", ...}} animate={{y:[...], ...}} ...>
+                            <div
+                              className="absolute h-1 w-1 rounded-full bg-white/20"
+                              style={{
++                               transform: "translateX(58.84116959307302vw) translateY(2.9588924464014843vh)"
+-                               transform: "translateX(43.042vw) translateY(31.2178vh)"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div className="absolute h..." initial={{x:"2.44482...", ...}} animate={{y:[...], ...}} ...>
+                            <div
+                              className="absolute h-1 w-1 rounded-full bg-white/20"
+                              style={{
++                               transform: "translateX(2.444829314499175vw) translateY(24.611194093939826vh)"
+-                               transform: "translateX(83.2572vw) translateY(14.9049vh)"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div className="absolute h..." initial={{x:"23.9537...", ...}} animate={{y:[...], ...}} ...>
+                            <div
+                              className="absolute h-1 w-1 rounded-full bg-white/20"
+                              style={{
++                               transform: "translateX(23.953706372677253vw) translateY(6.309673707721242vh)"
+-                               transform: "translateX(4.68977vw) translateY(36.9694vh)"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div className="absolute h..." initial={{x:"86.2015...", ...}} animate={{y:[...], ...}} ...>
+                            <div
+                              className="absolute h-1 w-1 rounded-full bg-white/20"
+                              style={{
++                               transform: "translateX(86.2015918690368vw) translateY(75.66509704863805vh)"
+-                               transform: "translateX(46.6224vw) translateY(72.2694vh)"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div className="absolute h..." initial={{x:"66.8487...", ...}} animate={{y:[...], ...}} ...>
+                            <div
+                              className="absolute h-1 w-1 rounded-full bg-white/20"
+                              style={{
++                               transform: "translateX(66.84871663395067vw) translateY(76.2218868764312vh)"
+-                               transform: "translateX(48.9624vw) translateY(77.7996vh)"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                        ...
+                    ...
+              ...
+            ...
+
+[00:01:46.723] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:46.723] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:46.723] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#experience color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765786564938}
+[00:03:18.013] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="font-sans antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                            ...
+                              <motion.div className="absolute h..." initial={{x:"85.2772...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(85.27724268306706vw) translateY(82.89978794498391vh)"
+-                                   transform: "translateX(84.1607vw) translateY(23.0555vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"64.7762...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(64.77624854138vw) translateY(17.732637087578595vh)"
+-                                   transform: "translateX(85.7089vw) translateY(80.6933vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"7.99345...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(7.993450986102236vw) translateY(61.53238980549792vh)"
+-                                   transform: "translateX(82.9487vw) translateY(4.12102vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"91.2075...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(91.20753089104522vw) translateY(39.85407246170496vh)"
+-                                   transform: "translateX(15.1505vw) translateY(74.3406vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"72.8817...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(72.88179064676731vw) translateY(49.399516408715726vh)"
+-                                   transform: "translateX(25.5859vw) translateY(65.188vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"14.3605...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(14.360550090627788vw) translateY(2.5730625557555786vh)"
+-                                   transform: "translateX(76.2043vw) translateY(65.24vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"36.6968...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(36.69682756808809vw) translateY(3.222984233292059vh)"
+-                                   transform: "translateX(85.8685vw) translateY(73.9135vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"10.1074...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(10.107423367733448vw) translateY(39.0913481925397vh)"
+-                                   transform: "translateX(4.28404vw) translateY(52.3901vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"14.8114...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(14.811467595737271vw) translateY(13.598480262334679vh)"
+-                                   transform: "translateX(67.1567vw) translateY(72.4856vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"68.6384...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(68.63843892997943vw) translateY(68.35745672178581vh)"
+-                                   transform: "translateX(16.2628vw) translateY(81.5367vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"10.2398...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(10.239850678051276vw) translateY(37.50651656380647vh)"
+-                                   transform: "translateX(74.0718vw) translateY(91.0569vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"61.6278...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(61.62781378982737vw) translateY(34.726575037267814vh)"
+-                                   transform: "translateX(5.64642vw) translateY(25.4837vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"86.8218...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(86.82184846855043vw) translateY(22.9323310646001vh)"
+-                                   transform: "translateX(12.1949vw) translateY(33.4119vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"64.9073...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(64.90737347101859vw) translateY(20.122443103583166vh)"
+-                                   transform: "translateX(73.5889vw) translateY(34.1457vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"97.2472...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(97.24723233080516vw) translateY(20.462238979787127vh)"
+-                                   transform: "translateX(58.7649vw) translateY(67.8541vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"73.9552...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(73.95525969395813vw) translateY(57.921955225005476vh)"
+-                                   transform: "translateX(54.9387vw) translateY(17.6848vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"80.4720...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(80.47202960654782vw) translateY(88.834534188446vh)"
+-                                   transform: "translateX(59.4167vw) translateY(51.9593vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"9.61407...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(9.61407618102209vw) translateY(22.77584273508718vh)"
+-                                   transform: "translateX(21.6852vw) translateY(83.3945vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"91.9122...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(91.91226209880455vw) translateY(54.49456918885712vh)"
+-                                   transform: "translateX(75.0583vw) translateY(73.2648vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                              <motion.div className="absolute h..." initial={{x:"4.35657...", ...}} ...>
+                                <div
+                                  className="absolute h-1 w-1 rounded-full bg-white/20"
+                                  style={{
++                                   transform: "translateX(4.356572731944974vw) translateY(55.14348731464377vh)"
+-                                   transform: "translateX(44.6089vw) translateY(71.3357vh)"
+                                  }}
+                                  ref={function useMotionRef.useCallback}
+                                >
+                            ...
+                  ...
+
+[00:03:18.164] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:18.164] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:03:18.164] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#about color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765786656380}
+[00:07:05.385] Server  LOG      ✓ Compiled in 586ms
+[00:08:12.089] Server  LOG      ✓ Compiled in 155ms
+[00:10:02.485] Server  LOG      ✓ Compiled in 143ms
+[00:10:09.521] Server  LOG      ✓ Compiled in 237ms
+[00:10:12.780] Server  LOG      ✓ Compiled in 153ms
+[00:10:15.632] Server  LOG      ✓ Compiled in 505ms
+[00:10:23.735] Server  LOG      ✓ Compiled in 149ms
+[00:10:26.213] Server  LOG      ✓ Compiled in 726ms
+[00:10:36.237] Server  LOG      ✓ Compiled in 284ms
+[00:11:01.207] Server  LOG      ✓ Compiled in 108ms
+[00:11:03.830] Server  LOG      ✓ Compiled in 318ms
+[00:11:04.358] Browser ERROR   ./components/about-section.tsx:140:19
+Parsing ecmascript source code failed
+  138 |                   }}
+  139 |                 >
+> 140 |                   >Down
+      |                   ^
+  141 |                   Download Resume
+  142 |                 </Button>
+  143 |               </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import trace:
+  Server Component:
+    ./components/about-section.tsx
+    ./app/page.tsx
+[00:11:06.443] Server  LOG      ✓ Compiled in 175ms
+[00:11:09.043] Server  LOG      ✓ Compiled in 382ms
+[00:11:09.355] Browser ERROR   ./components/about-section.tsx:142:17
+Parsing ecmascript source code failed
+  140 |                   <Down
+  141 |                   Download Resume
+> 142 |                 </Button>
+      |                 ^
+  143 |               </div>
+  144 |
+  145 |               {/* Values */}
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/about-section.tsx
+    ./app/page.tsx
+[00:11:09.355] Browser ERROR   ./components/about-section.tsx:142:18
+Parsing ecmascript source code failed
+  140 |                   <Down
+  141 |                   Download Resume
+> 142 |                 </Button>
+      |                  ^^^^^^^^
+  143 |               </div>
+  144 |
+  145 |               {/* Values */}
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/about-section.tsx
+    ./app/page.tsx
+[00:11:13.768] Server  LOG      ✓ Compiled in 1032ms
+[00:11:18.139] Server  LOG      ✓ Compiled in 192ms
+[00:11:18.362] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:11:20.067] Server  LOG      ✓ Compiled in 183ms
+[00:11:22.691] Server  LOG      ✓ Compiled in 190ms
+[00:11:24.926] Server  LOG      ✓ Compiled in 243ms
+[00:11:28.186] Server  LOG      ✓ Compiled in 149ms
+[00:11:30.872] Server  LOG      ✓ Compiled in 104ms
+[00:11:35.653] Server  LOG      ✓ Compiled in 187ms
+[00:11:36.961] Server  LOG      ✓ Compiled in 348ms
