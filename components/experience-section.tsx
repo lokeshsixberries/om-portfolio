@@ -31,9 +31,9 @@ const experiences = [
   },
   {
     icon: Briefcase,
-    title: "IMG Global Infotech Private Limited ",
+    title: "SEO Executive Intern",
     duration: "Internship",
-    place: "Way To Code Technologies LLP",
+    place: "IMG Global Infotech Private Limited",
     period: "Aug 2024 - Dec 2024",
     description:
       "Leading SEO initiatives for diverse clients with focus on organic growth and technical excellence.",
