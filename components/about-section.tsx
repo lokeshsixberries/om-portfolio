@@ -140,7 +140,7 @@ export function AboutSection() {
                   className="bg-slate-700 cursor-pointer hover:bg-slate-900"
                   onClick={() => {
                     window.open(
-                      "https://drive.google.com/file/d/13WD49Kjp43xwGEei7_fmL4v6XmG3BUSz/view?usp=sharing",
+                      "https://drive.google.com/file/d/1qahWwSiA_zu4vbCa2Q9ByfvS4jMreck2/view",
                       "_blank"
                     );
                   }}
