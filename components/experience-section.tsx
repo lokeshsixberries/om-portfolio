@@ -18,7 +18,7 @@ const experiences = [
     icon: GraduationCap,
     title: "Search Engine Optimization Course",
     duration: "Trainee",
-    place: "IMG Global Infotech Private Limited ",
+    place: "Way To Code Technologies LLP",
     period: "Jan 2024 - July 2024",
     description:
       "Comprehensive training in SEO fundamentals, technical optimization, and data-driven strategies.",
